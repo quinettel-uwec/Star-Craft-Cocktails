@@ -1,11 +1,155 @@
 header{
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1rem;
 }
 
 body{
     background-color: #e6d17a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, p{
+    padding-left: 1rem;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 footer{
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+footer>img{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.click{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f2c657;
+    width: 25rem;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+}
+
+.click:hover{
+    color: white;
+    background-color: #988a6a;
+    border-color: black;
+}
+
+.kits{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kits>img{
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.desktop_left, .desktop_right{
+    display: none;
+}
+
+.contact, .socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socials{
+    padding-right: 2rem;
+}
+
+.more{
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-left: .9rem;
+    padding-right: .9rem;
+    background-color: #988a6a;
+    color: black;
+    text-decoration: none;
+    float: right;
+    border-radius: 5px;
+    border-color: transparent;
+    border-width: medium;
+    border-style: solid;
+}
+
+.more:hover{
+    color: black;
+    background-color: #f2c657;
+    border-color: white;
+}
+
+.mores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav>a, h1, h2, a{
+    color: black;
+    text-decoration: none;
+}
+
+.about>p{
+    padding-left: 3rem;
+}
+
+.about>h1, .about>h2, .about>img{
+    padding-left: 1rem;
+}
+
+.bundle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f2c657;
+    width: 25rem;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+}
+
+.pair{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.new>img{
+    display: none;
+}
+
+.bundle:hover{
+    color: white;
+    background-color: #988a6a;
+    border-color: black;
 }
