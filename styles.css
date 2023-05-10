@@ -52,6 +52,7 @@ img{
     border: black;
     border-style: solid;
     border-width: medium;
+    margin: auto;
 }
 
 .click:hover{
@@ -152,4 +153,174 @@ nav>a, h1, h2, a{
     color: white;
     background-color: #988a6a;
     border-color: black;
+}
+
+.logo2{
+    display: none;
+}
+
+@media (min-width: 1200px){
+
+.desktop_left, .desktop_right{
+    display: flex;
+    align-items: center;
+    border-bottom: .2rem solid black;
+    padding: 0 0 2rem 0;
+}
+
+.desktop{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.logo2{
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 75px;
+    padding: 1rem 2rem 0 2rem;
+}
+
+header{
+    background-color: #e6d17a;
+    margin-bottom: 1rem;
+}
+
+.mobiles{
+    display: none;
+}
+
+nav>a{
+    padding: 0 8rem 0 5rem;
+}
+
+
+.meet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.events{
+    display: flex;
+    flex-direction: row;
+}
+
+.kits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.item1{
+    grid-area: 1/1/2/2;
+    align-self: center;
+}
+
+.item2{
+    grid-area: 1/2/2/3;
+    align-self: center;
+}
+
+.item3{
+    grid-area: 1/3/2/4;
+    align-self: center;
+}
+
+.item4{
+    grid-area: 2/1/2/3;
+    align-self: center;
+}
+
+.item5{
+    grid-area: 2/2/3/3;
+    align-self: center;
+}
+
+.item6{
+    grid-area: 2/3/3/4;
+    align-self: center;
+}
+
+.item7{
+    grid-area: 3/1/4/2;
+    align-self: center;
+}
+
+.item8{
+    grid-area: 3/2/4/3;
+    align-self: center;
+}
+
+.item9{
+    grid-area: 3/3/4/4;
+    align-self: center;
+}
+
+.bundles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.bundle9{
+    grid-area: 1/1/2/2;
+    align-self: center;
+}
+
+.bundle1{
+    grid-area: 1/2/2/3;
+    align-self: center;
+}
+
+.bundle2{
+    grid-area: 2/1/3/2;
+    align-self: center;
+}
+
+.bundle3{
+    grid-area: 2/2/3/3;
+    align-self: center;
+}
+
+.bundle4{
+    grid-area: 3/1/4/2;
+    align-self: center;
+}
+
+.bundle5{
+    grid-area: 3/2/4/3;
+    align-self: center;
+}
+
+.bundle6{
+    grid-area: 4/1/5/2;
+    align-self: center;
+}
+
+.bundle7{
+    grid-area: 4/2/5/3;
+    align-self: center;
+}
+
+.column_left{
+    display: inline-block;
+    width: 48%;
+    vertical-align: text-top;
+}
+
+.column_right{
+    display: inline-block;
+    width: 48%;
+    vertical-align: text-top;
+}
+
+
+
 }
