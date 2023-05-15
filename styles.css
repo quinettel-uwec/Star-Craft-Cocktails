@@ -67,9 +67,9 @@ img{
     flex-wrap: wrap;
 }
 
-.kits>img{
-    padding-bottom: 1rem;
-    padding-top: 3rem;
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9{
+    padding-top: 3.5rem;
 }
 
 .desktop_left, .desktop_right{
@@ -159,6 +159,15 @@ nav>a, h1, h2, a{
     display: none;
 }
 
+.fair{
+    padding-left: 1rem;
+}
+
+.meet, .seller{
+    padding-left: 2rem;
+}
+
+
 @media (min-width: 1200px){
 
 .desktop_left, .desktop_right{
@@ -194,7 +203,6 @@ header{
 nav>a{
     padding: 0 8rem 0 5rem;
 }
-
 
 .meet{
     display: flex;
