@@ -167,6 +167,14 @@ nav>a, h1, h2, a{
     padding-left: 2rem;
 }
 
+.socials>a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 
 @media (min-width: 1200px){
 
@@ -213,7 +221,21 @@ nav>a{
 
 .events{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+}
+
+.fairs_left{
+    display: inline-block;
+    width: 40%;
+    vertical-align: text-top;
+    padding-bottom: 2rem;
+}
+
+.fairs_right{
+    display: inline-block;
+    width: 40%;
+    vertical-align: text-top;
+    padding-top: 2rem;
 }
 
 .kits{
@@ -221,7 +243,8 @@ nav>a{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 4rem;
-    padding: 2rem;
+    padding: 2.5rem;
+    text-align: center;
 }
 
 .item1{
@@ -240,7 +263,7 @@ nav>a{
 }
 
 .item4{
-    grid-area: 2/1/2/3;
+    grid-area: 2/1/3/2;
     align-self: center;
 }
 
@@ -321,6 +344,7 @@ nav>a{
     display: inline-block;
     width: 48%;
     vertical-align: text-top;
+    padding-left: 2%;
 }
 
 .column_right{
@@ -329,6 +353,48 @@ nav>a{
     vertical-align: text-top;
 }
 
+.foot{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
 
+
+.contact>p{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.socials>a{
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.upcoming{
+    padding-top: 3.5rem;
+}
+
+nav>a:hover{
+    color: white;
+}
+
+.seller{
+    display: inline-block;
+    width: 20%;
+    vertical-align: text-top;
+    padding-bottom: 1rem;
+}
+
+.meet{
+    display: inline-block;
+    width: 35%;
+    padding-left: 5rem;
+    padding-top: 15rem;
+    vertical-align: text-top;
+}
 
 }
