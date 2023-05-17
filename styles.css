@@ -134,7 +134,7 @@ h1, h2{
     padding: 1rem;
     background-color: #f2c657;
     width: 25rem;
-    border: black;
+    border-color: black;
     border-style: solid;
     border-width: medium;
 }
@@ -171,8 +171,6 @@ h1, h2{
     display: flex;
     align-items: center;
 }
-
-
 
 
 
