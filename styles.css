@@ -212,9 +212,9 @@ header{
 }
 
 nav>a{
-    padding: 0 8rem 0 5rem;/*Delete this padding it is causing some issues on certain screen sizes*/
+    padding: 0 8rem 0 5rem;/*Delete this padding it is causing some issues on certain screen sizes. Instead use the css on the nav below*/
 }
-/*Add this css to nav. display:flex; justify-content:space-evenly; width:100%;*/
+/*Add this css to nav - display:flex; justify-content:space-evenly; width:100%;*/
 .meet{
     display: flex;
     flex-direction: row;
