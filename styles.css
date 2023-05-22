@@ -181,6 +181,7 @@ h1, h2{
     align-items: center;
     border-bottom: .2rem solid black;
     padding: 0 0 2rem 0;
+    /*Add flex:1; this will make the left and right div take up a third of the space*/
 }
 
 .desktop{
@@ -211,9 +212,9 @@ header{
 }
 
 nav>a{
-    padding: 0 8rem 0 5rem;
+    padding: 0 8rem 0 5rem;/*Delete this padding it is causing some issues on certain screen sizes*/
 }
-
+/*Add this css to nav. display:flex; justify-content:space-evenly; width:100%;*/
 .meet{
     display: flex;
     flex-direction: row;
@@ -248,7 +249,7 @@ nav>a{
     padding: 2.5rem;
     text-align: center;
 }
-
+/*You need to add .click{width:unset} in the media query. The width of 25rem with the grid is causing issues for desktop*/
 .item1{
     grid-area: 1/1/2/2;
     align-self: center;
